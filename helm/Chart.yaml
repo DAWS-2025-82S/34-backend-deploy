@@ -3,3 +3,23 @@ name: backend
 version: 1.0.0 # chart version
 description: This is backend deployment
 appVersion: 1.0.0 # nginx app version
+
+
+# copy the backend charts code from 23-helm-expense/backend to 34-backend-deploy/helm directory
+
+# Update config.yaml file to temapletise DB URL
+
+# Update deployment.yaml file to provice ECR image URL instead of dockerhub
+
+# add files values-dev.yaml and values-prod.yaml for dev and prod
+
+# Add Jenkins file for 34-backend-deploy.git
+
+# In Jenkins Create job for  34-backend-deploy repo under INFRA-->BACKEND-->backend-cd folder 
+
+# https://github.com/DAWS-2025-82S/34-backend-deploy.git
+
+# Rebuild plugin to rerun the failed build with previous parameters
+
+# Add Jenkins Agent security group to EKS cluster control plane inbound security rules
+# to allow the access to cluster from jenkins agent 
