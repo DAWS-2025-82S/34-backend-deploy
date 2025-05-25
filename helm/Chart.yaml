@@ -9,13 +9,13 @@ appVersion: 1.0.0 # nginx app version
 
 # Update config.yaml file to temapletise DB URL
 
-# Update deployment.yaml file to provice ECR image URL instead of dockerhub
+# Update deployment.yaml file to provide ECR image URL instead of dockerhub
 
 # add files values-dev.yaml and values-prod.yaml for dev and prod
 
 # Add Jenkins file for 34-backend-deploy.git
 
-# In Jenkins Create job for  34-backend-deploy repo under INFRA-->BACKEND-->backend-cd folder 
+# In Jenkins Create job for  34-backend-deploy repo under EXPENSE-->BACKEND-->backend-cd folder 
 
 # https://github.com/DAWS-2025-82S/34-backend-deploy.git
 
