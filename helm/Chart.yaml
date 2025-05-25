@@ -3,5 +3,3 @@ name: backend
 version: 1.0.0 # chart version
 description: This is backend deployment
 appVersion: 1.0.0 # nginx app version
-
-
